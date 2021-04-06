@@ -1,0 +1,3 @@
+[submodule "webdriverio"]
+	path = webdriverio
+	url = https://github.com/nicolasbouffard/webdriverio.git
