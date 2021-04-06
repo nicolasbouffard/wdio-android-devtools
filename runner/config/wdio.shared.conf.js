@@ -13,7 +13,7 @@ exports.config = {
   framework: "mocha",
   reporters: ["spec"],
   services: [
-    // "devtools",
+    "devtools",
   ],
   mochaOpts: {
     ui: "bdd",

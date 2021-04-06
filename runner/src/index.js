@@ -9,7 +9,7 @@ const wdio = new Launcher(`config/wdio.shared.conf.js`, {
   hostname: "localhost",
   port: 4723,
   capabilities: [{
-    // "se:cdp":"ws://localhost:9222/devtools/browser",
+    "se:cdp":"ws://localhost:9222/devtools/browser",
     browserName: "chrome",
     browserVersion: process.argv[4],
     platformName: "Android",
